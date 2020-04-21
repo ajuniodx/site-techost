@@ -1,5 +1,5 @@
 .carousel-item {
-  height: 65vh;
+  height: 90%;
   min-height: 350px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -14,6 +14,25 @@
 .img-rem {
   width: 23rem;
 }
+.logo-tec {
+  width: 12rem;
+}
+.menu-rem {
+  margin-left: 2rem;
+}
+.back-s {
+  background: #100146;
+}
+.back-f {
+  background: #E761FE;
+}
+.style-bk {
+  color: #FCFFFF;
+  font-weight: bold;
+}
+.bg-tec {
+  background-color: #100146;
+}
 
 
 
@@ -30,13 +49,29 @@
 
 
 
+.card-video {
+  background: #FAFAFA;
+    min-height: 22rem;
+    min-width: 24rem;
+    position: relative;
+    padding: 30px 30px 20px;
+    margin-bottom: 20px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    position: relative;
 
+}
 
 
 
 
 .footer-wrap {
-  background: url(http://hassandesigns.top/html/classified/images/footer-bg.jpg) no-repeat top;
+  background-color: #100146;
   padding-top: 30px;
   background-size: cover;
 }
@@ -149,7 +184,7 @@
 
 .card-box {
   background: #FAFAFA;
-  min-height: 300px;
+  min-height: 30rem;
   position: relative;
   padding: 30px 30px 20px;
   margin-bottom: 20px;
@@ -161,17 +196,20 @@
   -ms-flex-pack: justify;
   justify-content: space-between;
   position: relative;
-  cursor: pointer;
 }
-
-.card-box:hover {
-  background: linear-gradient(to right, #1fa2ff17 0%, #12d8fa2b 51%, #1fa2ff36 100%);
+.card-link a {
+  text-decoration: none;
+  color: #f8f9fa !important;
+  font-size: 15px;
 }
-
+.btn-primary {
+  color: #fff;
+  background-color: #100146;
+}
 .card-box:after {
   display: block;
-  background: #2196F3;
-  border-top: 2px solid #2196F3;
+  background: #495057;
+  border-top: 2px solid #E761FE;
   content: '';
   width: 100%;
   position: absolute;
@@ -183,8 +221,7 @@
 .card-title h2 {
   margin: 0;
   padding-top: 5%;
-  color: #2196F3;
-  font-family: 'Oswald', sans-serif;
+  color: #6533E2;
   text-transform: uppercase;
   font-size: 24px;
   line-height: 1;
@@ -199,7 +236,6 @@
 
 .card-link a {
   text-decoration: none;
-  font-family: 'Oswald', sans-serif;
-  color: #FF5722;
+  color: #100146;
   font-size: 15px;
 }
