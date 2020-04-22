@@ -7,6 +7,9 @@
   -o-background-size: cover;
   background-size: cover;
 }
+li {
+  list-style-type: none;
+} 
 
 .margin-section {
   margin-bottom: 2rem;
