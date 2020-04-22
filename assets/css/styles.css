@@ -146,7 +146,7 @@ li {
 
 .card-box {
   background: #FAFAFA;
-  min-height: 30rem;
+  min-height: 22rem;
   position: relative;
   padding: 30px 30px 20px;
   margin-bottom: 20px;
@@ -200,4 +200,7 @@ li {
   text-decoration: none;
   color: #100146;
   font-size: 15px;
+}
+@media only screen and (max-width: 980px){
+  aside { display: none; }
 }
