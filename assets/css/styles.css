@@ -1,5 +1,5 @@
 .carousel-item {
-  height: 90%;
+  height: 100vh;
   min-height: 350px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -7,6 +7,7 @@
   -o-background-size: cover;
   background-size: cover;
 }
+
 .margin-section {
   margin-bottom: 2rem;
   margin-top: 2rem;
@@ -44,21 +45,6 @@
   text-decoration: none !important;
   font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .card-video {
   background: #FAFAFA;
@@ -115,25 +101,11 @@
   text-decoration: none;
 }
 
-.footer-links li:before {
-  content: "\f105";
-  font-family: 'FontAwesome';
-  padding-right: 10px;
-  color: #fff;
-}
-
 .footer-category li a {
   font-size: 14px;
   line-height: 26px;
   color: #fff;
   text-decoration: none;
-}
-
-.footer-category li:before {
-  content: "\f105";
-  font-family: 'FontAwesome';
-  padding-right: 10px;
-  color: #fff;
 }
 
 .address {  
@@ -144,23 +116,11 @@
   line-height: 30px;
 }
 
-.address:before {
-  content: "\f277";
-  font-family: 'FontAwesome';
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
 .info a {
   color: #fff;
   font-size: 14px;
   line-height: 30px;
   font-weight: normal;
-}
-
-.fa-phone:before {
-  content: "\f095";
 }
 
 .info a {
@@ -169,10 +129,6 @@
   font-size: 14px;
   line-height: 30px;
   font-weight: normal;
-}
-
-.fa-fax:before {
-  content: "\f1ac";
 }
 
 .copyright {
@@ -211,7 +167,7 @@
 }
 .card-box:after {
   display: block;
-  background: #495057;
+  background: #100146;
   border-top: 2px solid #E761FE;
   content: '';
   width: 100%;
