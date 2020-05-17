@@ -1,4 +1,10 @@
-# A TecHost é um projeto de Estudo feito por mim, para a matéria de Desenvolvimento Web no curso de Engenharia de Software da PUC MINAS.
-![tecHost](https://user-images.githubusercontent.com/54075040/79921533-b89b1f00-8408-11ea-9e46-b29a4eec31a3.jpg)
+# TecHost-FrontEnd
 
-# Ferramenta utilizada: Bootstrap 4
+#####  Front end development made for the subject of Web Development in the course of Software Engineering at PUC MINAS.
+[Click here to see the game demo](https://techost.now.sh/ "Click here to see the game demo")
+
+
+## Tools used:
+###### HTML, CSS, JAVASCRIPT, BOOTSTRAP
+
+![TECHOST](https://i.ibb.co/gm7vz8y/website.jpg "TECHOST")
